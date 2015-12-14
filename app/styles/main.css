@@ -89,6 +89,7 @@ color: white;
 }
  
 .container {
+  padding-top: 37px;
   background-color: black;
   height: 1525px;
   width:1200px;
@@ -108,21 +109,30 @@ color: white;
 
 .atl {
 position: absolute;
-top: 3px;
+top: 0px;
 left: 40px;
 right: 50px;  
-color:#000000;
+color:red;
 text-align:center;
-font-size: 21px;
+font-size: 31px;
 z-index: 1;
 
 }
 
+.atl2 {
+padding-top: 4px; 
+color:black;
+font-size: 21px;
+z-index: 3;
+
+
+
+}
 
 
 nav {
   position: absolute;
-  top: 15px;
+  top: 57px;
   z-index: 3;
 }
 
@@ -199,5 +209,17 @@ background-image: url(../images/awa_button_static.png);
 }
 
 
+.artists {
+  font-size: 19px;
+  padding: 29px;
+  text-align: left;
+  background-color: orange;
+  color: black;
+  border-bottom: 1px solid #e5e5e5;
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px; /* future proofing */
+-khtml-border-radius: 5px; /* for old Konqueror browsers */
 
+}
  

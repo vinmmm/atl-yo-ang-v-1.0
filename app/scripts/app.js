@@ -8,14 +8,14 @@
  *
  * Main module of the application.
  */
-angular
-  .module('atlApp', [
+angular.module('atlApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
     'ngTouch'
+    
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -44,7 +44,19 @@ angular
         controller: 'WalksCtrl',
         controllerAs: 'walks'
       })
+      .when('/plunker', {
+        templateUrl: 'views/plunker/plunker.html',
+        controller: 'MyController',
+        controllerAs: 'plunker'
+      })
+      .when('/mycontroller', {
+        templateUrl: 'views/mycontroller.html',
+        controller: 'Mycontroller',
+        controllerAs: 'mycontroller'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
+
+

@@ -1,1 +1,12 @@
-<p>This is the artists view.</p>
+<div class="artists" ng-controller="ArtistsCtrl">
+  <ul>
+    <li ng-repeat="todo in todos">
+     
+     <p>Name:{{todo.name}} </p> 
+     <p>Location: {{todo.location}}</p>  
+     <p>Info: {{todo.info}}</p>
+     <hr>
+       
+    </li>
+  </ul>
+</div>

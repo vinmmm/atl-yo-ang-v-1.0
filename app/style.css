@@ -1,0 +1,79 @@
+  
+.logo {
+  border:1px solid white;
+  height: 321px;
+  width: 1150px;
+  background-image: url(../images/atl-logo.png);
+  background-repeat: no-repeat;
+}
+
+.atl {
+position: absolute;
+top: 3px;
+left: 40px;
+right: 50px;  
+color:#000000;
+text-align:center;
+font-size: 21px;
+z-index: 1;
+
+}
+
+
+
+nav {
+  position: absolute;
+  top: 15px;
+  z-index: 3;
+}
+
+nav a img {
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+nav ul li{
+  list-style:none;
+  text-align:center;
+  text-decoration: none;
+}
+nav ul li a{
+  display:block;
+  height:32px;
+  line-height:32px;
+  width: 190px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-image: url(../images/awa_button_static.png);
+  background-repeat: no-repeat;
+  background-position: 9px +7px;
+
+} 
+
+nav ul li a:hover {
+background:url(../images/awa_combined_buttons.png) no-repeat;
+background-position: 3px +0px;
+
+
+} 
+
+
+nav ul li a:active {
+background:url(../images/awa_combined_buttons.png) no-repeat;
+background-image: url(../images/awa_button_static.png);
+  display:block;
+  height:32px;
+  line-height:32px;
+  width: 190px;
+  background-repeat: no-repeat;
+  background-position: 9px +7px;
+
+
+
+}

@@ -1,17 +1,9 @@
-'use strict';
+angular.module('atlApp').controller('ArtistsCtrl', function ($scope, $http) {
+  $http.get('characters.json')
+       .then(function(res){
+          $scope.todos = res.data; 
+          
+        });
+});
 
-/**
- * @ngdoc function
- * @name atlApp.controller:ArtistsCtrl
- * @description
- * # ArtistsCtrl
- * Controller of the atlApp
- */
-angular.module('atlApp')
-  .controller('ArtistsCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+
