@@ -82,39 +82,43 @@ a:hover { color: red; }
  */
  
 body{
-background-color: black;
+background-color: red;
 color: white;
 
 
 }
  
 .container {
-  padding-top: 37px;
+  padding-top: 45px;
   background-color: black;
   height: 1525px;
-  width:1200px;
+  width:1229px;
   margin:1px auto;
   text-align:center;
 }
 
+.title{
 
+}
   
 .logo {
   border:1px solid white;
-  height: 321px;
-  width: 1150px;
-  background-image: url(../images/atl-logo.png);
+  height: 193px;
+  width: 1200px;
+  background-image: url(../images/atl-logo3.png); 
   background-repeat: no-repeat;
 }
 
 .atl {
 position: absolute;
+background-color: red;
 top: 0px;
 left: 40px;
 right: 50px;  
-color:red;
+color: black;
 text-align:center;
-font-size: 31px;
+font-family: arial;
+font-size: 21px;
 z-index: 1;
 
 }
@@ -132,15 +136,15 @@ z-index: 3;
 
 nav {
   position: absolute;
-  top: 57px;
+
+  top: 47px;
+  padding: 0px;
+  
   z-index: 3;
 }
 
 nav a img {
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
+ 
 }
 
 nav ul li{
@@ -150,18 +154,19 @@ nav ul li{
 }
 nav ul li a{
   display:block;
-  height:32px;
+  text-align:center;
+  height:31.8px;
   line-height:32px;
   width: 190px;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  color: #FFFFFF;
+  background-color: red;
+  border: 0.3px solid black;
+  
+  color: black;
   text-decoration: none;
   background-image: url(../images/awa_button_static.png);
   background-repeat: no-repeat;
-  background-position: 9px +7px;
+  background-position: 9px +6px;
+
 
 } 
 
@@ -178,10 +183,10 @@ background:url(../images/awa_combined_buttons.png) no-repeat;
 background-image: url(../images/awa_button_static.png);
   display:block;
   height:32px;
-  line-height:32px;
+  line-height:30px;
   width: 190px;
   background-repeat: no-repeat;
-  background-position: 9px +7px;
+  background-position: 9px +6px;
 
 
 
@@ -213,7 +218,7 @@ background-image: url(../images/awa_button_static.png);
   font-size: 19px;
   padding: 29px;
   text-align: left;
-  background-color: orange;
+  background-color: red;
   color: black;
   border-bottom: 1px solid #e5e5e5;
   -moz-border-radius: 5px;

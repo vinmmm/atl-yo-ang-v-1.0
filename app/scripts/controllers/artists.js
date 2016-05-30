@@ -1,7 +1,7 @@
 angular.module('atlApp').controller('ArtistsCtrl', function ($scope, $http) {
-  $http.get('characters.json')
+  $http.get('artists.json')
        .then(function(res){
-          $scope.todos = res.data; 
+          $scope.artists = res.data; 
           
         });
 });
